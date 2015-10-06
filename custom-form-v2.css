@@ -27,3 +27,33 @@ border: none;
 background: #004386;
 color: #fff; 
 }
+
+.wufoo li {
+width: 98%;
+}
+
+.safari .wufoo select.select {
+    background: #ffffff;
+    border: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+input.text, input.search, textarea.textarea {
+    background: #ffffff;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.wufoo select.select {
+    height: 35px;
+    border: 0px;
+}
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
+    height: 30px;
+    border: 0px;
+}
