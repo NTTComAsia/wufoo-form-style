@@ -57,7 +57,11 @@ input.text, input.search, textarea.textarea {
     border: 0px;
 }
 
-.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
+.wufoo input.text, .wufoo input.file {
     height: 30px;
+    border: 0px;
+}
+
+.wufoo .wufoo textarea.textarea {
     border: 0px;
 }
