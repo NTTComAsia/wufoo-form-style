@@ -1,0 +1,72 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+ Title : Payment Solutions Web Form Custom Style
+ 
+ Last Updated : 2016-01-19
+- - - - - - - - - - - - - - - - - - - - - */
+
+/*Disable Form Title*/
+.wufoo .info{display:none}
+
+/*Submit Button Text*/
+.wufoo input.btTxt{
+height: 52px;
+width: 200px;
+border-radius: 0px;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+-o-border-radius: 0px;
+background: #000000;
+color: #fff;
+font-size: 18px;
+text-align: center;
+border: none;
+}
+
+/*Submit Button Text Hover*/
+.wufoo input.btTxt:hover{
+background: #222222;
+color: #fff;
+-webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+     -o-transition: all 0.5s;
+        transition: all 0.5s;
+}
+
+.wufoo li {
+    width: 98%;
+    padding: 6px 1% 6px 1%;
+}
+
+.wufoo select.select {
+    background: #FFFFFF;
+    border: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.wufoo li.buttons {
+    text-align: center;
+}
+
+.wufoo input.text, input.search, textarea.textarea {
+    background: #FFFFFF;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.wufoo select.select {
+    height: 35px;
+    border: 0px;
+}
+
+.wufoo input.text, .wufoo input.file {
+    height: 30px;
+    border: 0px;
+}
+
+.wufoo .wufoo textarea.textarea {
+    border: 0px;
+}
