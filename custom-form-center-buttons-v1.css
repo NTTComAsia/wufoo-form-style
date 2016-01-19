@@ -45,6 +45,10 @@ color: #fff;
     border-bottom: 0px;
 }
 
+.wufoo form li.buttons {
+    text-align: center;
+}
+
 input.text, input.search, textarea.textarea {
     background: #DCE6F2;
     border-top: 0px;
