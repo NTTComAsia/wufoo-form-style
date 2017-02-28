@@ -35,7 +35,13 @@ color: #fff;
     padding: 6px 1% 6px 1%;
 }
 
-
+.wufoo select.select {
+    background: #FFFFFF;
+    border: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
 .wufoo li.buttons {
     text-align: center;
 }
