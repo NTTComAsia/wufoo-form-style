@@ -1,0 +1,63 @@
+﻿/* - - - - - - - - - - - - - - - - - - - - -
+ Title : UCaaS Report Form Custom Style
+ 
+ Last Updated : 2017-02-28 
+- - - - - - - - - - - - - - - - - - - - - */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+.wufoo {font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+/*Disable Form Title*/
+.wufoo .info{display:none}
+
+/*Submit Button Text*/
+.wufoo input.btTxt{
+height: 52px;
+width: 160px;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-o-border-radius: 10px;
+background: #00B0F0;
+color: #fff;
+font-size: 18px;
+text-align: center;
+border: none;
+}
+
+/*Submit Button Text Hover*/
+.wufoo input.btTxt:hover{
+background: #004386;
+color: #fff; 
+}
+
+.wufoo li {
+    width: 98%;
+    padding: 6px 1% 6px 1%;
+}
+
+
+.wufoo li.buttons {
+    text-align: center;
+}
+
+.wufoo input.text, input.search, textarea.textarea {
+    background: #FFFFFF;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.wufoo select.select {
+    height: 35px;
+    border: 0px;
+}
+
+.wufoo input.text, .wufoo input.file {
+    height: 30px;
+    border: 0px;
+}
+
+.wufoo .wufoo textarea.textarea {
+    border: 0px;
+}
