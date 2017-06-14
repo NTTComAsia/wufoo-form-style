@@ -297,7 +297,7 @@ input.text, input.search, textarea.textarea ,select.select{
     border: 0;
     border-bottom: 1px solid #000;
     border-right: none;
-    font-size: 95% !important;
+    font-size: 125% !important;
 }
 
 input.nospin::-webkit-inner-spin-button,
